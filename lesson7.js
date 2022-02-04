@@ -1,8 +1,8 @@
 //задача 1
-let list = [0, 1, false, 2, undefined, '', 3, null]
+let list2 = [0, 1, false, 2, undefined, '', 3, null]
 const result = [];
 
-for( let value2 of list){
+for( let value2 of list2){
  if( typeof value2==="number"){
    result.push(value2)
  }
