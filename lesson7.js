@@ -2,9 +2,9 @@
 let list = [0, 1, false, 2, undefined, '', 3, null]
 const result = [];
 
-for( let value of list){
- if( typeof value==="number"){
-   result.push(value)
+for( let value2 of list){
+ if( typeof value2==="number"){
+   result.push(value2)
  }
 
 }
@@ -14,15 +14,15 @@ console.log(result);
 
 
 //задача 2
-let list = [true, false, true, false, true, true];
+let list1 = [true, false, true, false, true, true];
 let listTrue = [];
 let listFalse = [];
 
-for (let value of list) {
-  if (value === true) {
-    listTrue.push(value);
+for (let value1 of list1) {
+  if (value1 === true) {
+    listTrue.push(value1);
   } else {
-    listFalse.push(value);
+    listFalse.push(value1);
   }
 }
 
@@ -46,30 +46,30 @@ for (let i = 0; i < num.length; i += 1) {
 
 //задача 4
 let list =  [2, 1, 3] ;
-let result = [];
+let result2 = [];
 for (let value of list){
 result.push(value * 2 );
 }
-console.log(result);
+console.log(result2);
 
 //задача 5
 
 const num1 = Number(prompt("Введіть перше число"));
 const operator = prompt("Введіть оператор вичислення");
 const num2 = Number(prompt("Введіть друге число"));
-let result;
+let result1;
 switch (operator) {
   case "+":
-    result = num1 + num2;
+    result1 = num1 + num2;
     break;
   case "-":
-    result = num1 - num2;
+    result1 = num1 - num2;
     break;
   case "/":
-    result = num1 / num2;
+    result1 = num1 / num2;
     break;
   case "*":
-    result = num1 * num2;
+    result1 = num1 * num2;
     break;
   default:
     console.log("Не можливо вирішити");
